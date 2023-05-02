@@ -224,7 +224,7 @@ if(rising_edge(clk)) then
 						state <= S_READ;
 					end if;
 				else 
-					state <= S_START;
+					state <= S_IDLE;
 				end if;
 
 		when S_WRITE 	=> 
